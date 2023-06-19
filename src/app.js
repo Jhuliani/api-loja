@@ -20,10 +20,10 @@ const Customer = require('./models/customer');
 const Order = require('./models/order');
 
 //carrega as rotas
-const indexRoutes = require('./routes/index');
-const product = require('./routes/product');
-const customer = require('./routes/customer');
-const order = require('./routes/order');
+const indexRoutes = require('./routes/index-route');
+const product = require('./routes/product-route');
+const customer = require('./routes/customer-route');
+const order = require('./routes/order-route');
 
 
 app.use('/', indexRoutes);
